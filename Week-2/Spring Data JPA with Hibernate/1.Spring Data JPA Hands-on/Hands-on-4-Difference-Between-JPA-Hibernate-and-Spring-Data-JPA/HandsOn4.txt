@@ -1,0 +1,20 @@
+Java Persistence API (JPA)
+
+Java Persistence API (JPA) is a Java specification that defines a standard way to 
+map Java objects to relational databases. It provides annotations such as @Entity, 
+@Table, and @Id but does not contain any implementation. An implementation such as 
+Hibernate is required to perform database operations.
+
+Hibernate
+
+Hibernate is an Object Relational Mapping (ORM) framework that implements the JPA 
+specification. It converts Java objects into database records and database records 
+into Java objects. Hibernate automatically generates SQL queries and manages 
+transactions, reducing the need for manual SQL programming.
+
+Spring Data JPA
+
+Spring Data JPA is a Spring framework module built on top of JPA. It uses Hibernate 
+(or any other JPA provider) internally and provides ready-made repository interfaces
+ like JpaRepository. This significantly reduces boilerplate code by providing 
+ built-in CRUD operations and query methods.
