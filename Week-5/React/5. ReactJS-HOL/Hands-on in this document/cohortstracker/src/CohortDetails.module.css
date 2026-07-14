@@ -1,0 +1,17 @@
+/* src/CohortDetails.module.css */
+
+.box {
+    width: 300px;                  /* Width = 300px [cite: 58] */
+    display: inline-block;          /* Display = inline block [cite: 59] */
+    margin: 10px;                   /* Overall 10px margin [cite: 60] */
+    padding: 10px 20px;            /* Top and bottom padding 10px, left and right 20px [cite: 61, 62] */
+    border: 1px solid black;       /* 1 px border in black color [cite: 63] */
+    border-radius: 10px;           /* A border radius of 10px [cite: 64] */
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+/* Tag selector for html <dt> element [cite: 65] */
+.box dt {
+    font-weight: 500;              /* Set the font weight to 500 [cite: 65] */
+}
