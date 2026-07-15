@@ -1,0 +1,29 @@
+/* src/App.css */
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Base class styling rules mapping the hint properties */
+.mystyle1, .st2, .v1 {
+  flex: 1;
+  padding: 0 20px;
+}
+
+/* Left and middle section layouts get right-hand green dividers */
+.mystyle1, .st2 {
+  border-right: 4px solid green;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+div[key] {
+  margin-bottom: 25px;
+}

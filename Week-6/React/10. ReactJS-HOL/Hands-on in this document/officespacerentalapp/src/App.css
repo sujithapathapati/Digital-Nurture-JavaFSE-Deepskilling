@@ -1,0 +1,11 @@
+/* Keep your existing styles above, just add these at the bottom */
+
+.textRed {
+    color: red !important;   /* Sets the rent color to Red */
+    font-weight: bold;
+}
+
+.textGreen {
+    color: green !important; /* Sets the rent color to Green */
+    font-weight: bold;
+}
