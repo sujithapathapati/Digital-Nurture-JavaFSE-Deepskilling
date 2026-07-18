@@ -17,4 +17,4 @@ Spring Data JPA
 Spring Data JPA is a Spring framework module built on top of JPA. It uses Hibernate 
 (or any other JPA provider) internally and provides ready-made repository interfaces
  like JpaRepository. This significantly reduces boilerplate code by providing 
- built-in CRUD operations and query methods.
+ built-in CRUD operations & query methods.
